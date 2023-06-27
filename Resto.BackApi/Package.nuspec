@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package>
+	<metadata>
+		<id>Resto.BackApi</id>
+		<version>1.0.4</version>
+		<authors>igorpooh</authors>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<license type="expression">MIT</license>
+		<description>Package description</description>
+		<releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+		<copyright>$copyright$</copyright>
+	</metadata>
+	<files>
+		<file src=".\Resto.BackApi.targets" target="build"/>
+		<file src=".\Common.dll" target="lib"/>
+		<file src=".\log4net.dll" target="lib"/>
+		<file src=".\Newtonsoft.Json.dll" target="lib"/>
+		<file src=".\Resto.BackApi.Core.dll" target="lib"/>
+		<file src=".\Resto.Framework.dll" target="lib"/>
+		<file src=".\RestSharp.dll" target="lib"/>
+	</files>
+</package>
